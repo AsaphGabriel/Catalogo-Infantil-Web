@@ -1,0 +1,35 @@
+.is-invalid{
+	border-color: red;
+}
+body {
+        background-color: #8dabcb;
+        font-family: 'JetBrains Mono', monospace;
+    }
+.navbar {
+        background-color: white;
+    }
+    .card {
+  padding: 20px;
+  background-color: #f9f9f9; /* Cor do fundo do card */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+  max-height: 300px; /* Altura máxima que deseja para a tabela */
+  max-width: 100%;   /* Largura máxima para que não ultrapasse o card */
+  overflow: auto;    /* Rolagem em ambas as direções */
+}
+
+table {
+  width: 100%;
+  min-width: 600px; /* Largura mínima da tabela */
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+    
